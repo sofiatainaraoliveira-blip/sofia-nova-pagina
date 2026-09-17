@@ -64,15 +64,15 @@
     </main>
 
 
-    <script>
-        const botao = document.querySelector("button");
+    <script>querySel
+        const botoes = document.querySelector("button");
         botes.forEach(function(botao){
         botao.addEventListener("click", botaoClicado);
         });
 
 
         function botaoClicado(event) {
-            let texto = event.querySelector("span");
+            let texto = event.currenttanget.querySelector("span");
             texto.textContent++;
         }
     </script>

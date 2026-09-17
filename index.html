@@ -66,13 +66,13 @@
 
     <script>
         const botoes = document.querySelectorAll("button");
-        botes.forEach(function(botao){
+        botoes.forEach(function(botao){
         botao.addEventListener("click", botaoClicado);
         });
 
 
         function botaoClicado(event) {
-            let texto = event.currenttanget.querySelector("span");
+            let texto = event.currentTarget.querySelector("span");
             texto.textContent++;
         }
     </script>
